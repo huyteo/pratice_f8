@@ -218,6 +218,77 @@ html {
   margin-top: -4px;
 }
 
+/* Places  */
+.places-list {
+  margin: 32px -8px 0;
+  padding-bottom: 54px;
+}
+
+.place-item {
+  float: left;
+  padding: 0 8px;
+  width: 33.33333%;
+}
+
+.place-img {
+  width: 100%;
+}
+
+.place-img:hover {
+  opacity: 0.6;
+}
+
+.place-body {
+  padding: 16px;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.place-heading {
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.place-time {
+  margin-top: 15px;
+}
+
+.place-des {
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.place-buy-btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.place-buy-btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
 /* footer section  */
 #footer {
+}
+
+/* modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+.modal-container {
+  width: 900px;
+  min-height: 200px;
+  background-color: #fff;
 }
